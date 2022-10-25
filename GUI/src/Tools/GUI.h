@@ -43,8 +43,8 @@ class GUI
 
             pangolin::Params windowParams;
 
-            windowParams.Set("SAMPLE_BUFFERS", 0);
-            windowParams.Set("SAMPLES", 0);
+            //windowParams.Set("SAMPLE_BUFFERS", 0);
+            //windowParams.Set("SAMPLES", 0);
 
             pangolin::CreateWindowAndBind("Main", width, height, windowParams);
 
