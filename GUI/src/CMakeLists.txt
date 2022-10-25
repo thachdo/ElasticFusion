@@ -68,7 +68,7 @@ else()
 endif()
 
 set(CMAKE_CXX_FLAGS ${ADDITIONAL_CMAKE_CXX_FLAGS} "-O3 -msse2 -msse3 -Wall -std=c++11")
-
+set(CMAKE_CXX_STANDARD_LIBRARIES -ljpeg)
 add_executable(ElasticFusion 
                ${srcs}
                ${tools_srcs}
